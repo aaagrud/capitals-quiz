@@ -9,8 +9,8 @@ let quiz;
 const db = new pg.Client({
   user : "postgres",
   host : "localhost",
-  database : "world",
-  password : "caramelcheese",
+  database : "",
+  password : "",
   port : 5432
 });
 
